@@ -5,8 +5,8 @@
 	import FancyCaption from "$lib/FancyCaption.svelte";
 </script>
 
-<main class="[&>*]:m-4">
-  <FancyCaption>こんにちは</FancyCaption>
+<main>
+  <FancyCaption text={"こんにちは"}></FancyCaption>
 </main>
 
 <Footer />
