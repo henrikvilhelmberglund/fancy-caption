@@ -2,10 +2,11 @@
 	import { afterUpdate } from "svelte";
 	import { base } from "$app/paths";
 	import Footer from "$lib/Footer.svelte";
+	import FancyCaption from "$lib/FancyCaption.svelte";
 </script>
 
 <main class="[&>*]:m-4">
-	<p class="p-48 text-9xl">Hello</p>
+  <FancyCaption>こんにちは</FancyCaption>
 </main>
 
 <Footer />
