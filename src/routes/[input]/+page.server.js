@@ -22,7 +22,7 @@ export const actions = {
 		const screenshot = await page.screenshot({ fullPage: false, omitBackground: true });
 
 		// Save the screenshot as a PNG file
-		fs.writeFileSync(`${params.input}.png`, screenshot);
+		fs.writeFileSync(`./output/${params.input}.png`, screenshot);
 
 		// Close the browser
 		await browser.close();
