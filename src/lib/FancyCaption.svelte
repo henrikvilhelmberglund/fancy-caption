@@ -2,7 +2,7 @@
 	export let text;
 </script>
 
-<div class="z-[-100] flex h-screen items-center justify-center bg-[#00ff00]">
+<div class="z-[-100] flex h-screen items-center justify-center bg-transparent">
 	{#each text as char, i}
 		<div class="relative">
 			<p
