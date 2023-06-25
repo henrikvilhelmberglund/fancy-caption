@@ -10,13 +10,13 @@ export const actions = {
 		const page = await browser.newPage();
 
 		// Set the viewport size to match your app's dimensions
-		await page.setViewport({ width: 800, height: 600 });
+		await page.setViewport({ width: 1080, height: 160 });
 
 		// Navigate to your SvelteKit app's local development server URL
 		await page.goto("http://localhost:5173");
 
 		// Wait for your app to finish rendering (you might need to adjust the timeout based on your app's complexity)
-		await page.waitForTimeout(2000);
+		await page.waitForTimeout(50);
 
 		// Capture a screenshot of the entire page
 		const screenshot = await page.screenshot({ fullPage: false, omitBackground: true });
