@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <FancyCaption text={"こんにちは"}></FancyCaption>
+	<FancyCaption text={"こんにちは"} />
 </main>
 
 <Footer />
