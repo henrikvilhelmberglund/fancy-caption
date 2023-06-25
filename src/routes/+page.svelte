@@ -8,7 +8,9 @@
 <main>
 	<FancyCaption text={"こんにちは"} />
 </main>
-
+<form method="POST">
+	<button>Render</button>
+</form>
 <Footer />
 
 <style>
